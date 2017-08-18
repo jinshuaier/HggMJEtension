@@ -1,0 +1,15 @@
+//
+//  HggDog.h
+//  HggMJEtension
+//
+//  Created by 胡高广 on 2017/8/18.
+//  Copyright © 2017年 胡高广. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface HggDog : NSObject
+@property (copy, nonatomic) NSString *nickName;
+@property (assign, nonatomic) double salePrice;
+@property (assign, nonatomic) double runSpeed;
+@end
